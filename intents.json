@@ -5,25 +5,37 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
-        "Is anyone there?",
         "Hello",
         "Good day"
+
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
+        "Hey :)",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
     },
     {
+      "tag": "questions",
+      "patterns": [
+        "How are you",
+        "What's up",
+        "whats up"
+
+      ],
+      "responses": [
+        "I'm great! Thanks for asking.",
+        "I'm doing good! How can I help?",
+        "Doing good! How can I help you?"
+      ]
+    },	
+    {
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
-        "See you later, thanks for visiting",
+        "See you later!",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Bye!"
       ]
     },
     {
@@ -32,53 +44,133 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "ServiceNow",
+      "patterns": ["What is ServiceNow?", "What is a Service Now request?", "Service Now request"],
+      "responses": ["Found on /intranet it allows you to make service requests, gain access to applications, and submit software installation requests."]
+    },
+    {
+      "tag": "Status20",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "What does status 20 mean?",
+        "Status 20",
+	      "What is status 20"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Status 20 means a new loan application has been created",
+        "New loan application created."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "Status30",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "What does status 30 mean?",
+        "Status 320",
+	      "What is status 30"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Status 30 means that the contract offer has been created",
+        "Contract offer created."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "Status40",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "What does status 40 mean?",
+        "Status 40",
+	      "What is status 40"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Status 40 means that the loan contract has been created",
+        "Loan contract created."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "Status50",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "What does status 50 mean?",
+        "Status 50",
+	      "What is status 50"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Status 50 means that the application is under review of the underwriter",
+        "Application under underwriter review."
+      ]
+    },
+    {
+      "tag": "Status60",
+      "patterns": [
+        "What does status 60 mean?",
+        "Status 60",
+	      "What is status 60"
+      ],
+      "responses": [
+        "Status 60 means that the requisition has been received",
+        "Requisition received."
+      ]
+    },
+    {
+      "tag": "Status70",
+      "patterns": [
+        "What does status 70 mean?",
+        "Status 70",
+	      "What is status 70"
+      ],
+      "responses": [
+        "Status 70 means documents incomplete for conventional loans.",
+        "Incomplete conventional loans."
+      ]
+    },
+    {
+      "tag": "LTV",
+      "patterns": [
+        "What is LTV?",
+        "LTV?",
+	      "What is one of the factors that will change the LTV %?"
+      ],
+      "responses": [
+        "Loan-to-Value ratio. You would divide the mortgage amount over the property value.",
+        "Loan-to-Value ratio (LTV): factors like mortgage amount and property affect this %."
+      ]
+    },
+    {
+      "tag": "TDS",
+      "patterns": [
+        "What is TDS?",
+        "TDS?",
+	      "What is one of the factors that will change the TDS %?"
+      ],
+      "responses": [
+        "Total Debt Service. It's the % of your income needed to cover all your debts"
+      ]
+    },
+    {
+      "tag": "CBS",
+      "patterns": [
+        "What is CBS?",
+        "CBS",
+	      "What is the range of CBS scores?"
+      ],
+      "responses": [
+        "CBS stands for Credit Bureau Score. Its rating ranges from 280 to 900. Usually a score of 600+ is considered to be good."
+      ]
+    },
+    {
+      "tag": "SAP application",
+      "patterns": [
+        "What SAP applications should I use for updating CBS?",
+        "SAP applications?",
+	      "SAP application",
+	      "SAP app",
+	      "applications",
+	      "SAP"
+      ],
+      "responses": [
+        "1. Finding loan details: Manage Loan Contract \n  2.Updation of CBS/MOS: Maintain BP \n  3. Link a property to an existing loan: Property \n  4. Creation of a new loan contract: Create Mortgage contract"
       ]
     }
   ]
 }
+
+
+
+
