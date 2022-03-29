@@ -1,4 +1,4 @@
-#Utility Functions to work with Natural Language
+#Utility Functions to work with Natural Language Processing Model
 
 import numpy as np
 import nltk
