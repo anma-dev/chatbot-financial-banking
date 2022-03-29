@@ -1,3 +1,5 @@
+#Python App to run chatbot 
+
 from urllib import response
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
