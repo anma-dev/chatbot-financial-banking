@@ -24,8 +24,7 @@
 
       ],
       "responses": [
-        "I'm great! Thanks for asking.",
-        "I'm doing good! How can I help?",
+        "I'm great! How can I help?",
         "Doing good! How can I help you?"
       ]
     },	
@@ -41,23 +40,33 @@
     {
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "responses": ["Happy to help!", "Any time!", "My pleasure!"]
     },
     {
       "tag": "ServiceNow",
       "patterns": ["What is ServiceNow?", "What is a Service Now request?", "Service Now request"],
-      "responses": ["Found on /intranet it allows you to make service requests, gain access to applications, and submit software installation requests."]
+      "responses": ["Found on /intranet it allows you to make service requests, gain access to applications, submit software installation requests, etc."]
     },
     {
       "tag": "Status20",
       "patterns": [
         "What does status 20 mean?",
         "Status 20",
-	      "What is status 20"
+	"What is status 20"
       ],
       "responses": [
-        "Status 20 means a new loan application has been created",
-        "New loan application created."
+        "Status 20 (loan) means a new loan application has been created"
+      ]
+    },
+    {
+      "tag": "Status29",
+      "patterns": [
+        "What does status 29 mean?",
+        "Status 29",
+	"What is status 29"
+      ],
+      "responses": [
+        "Status 29 (loan) means a new loan application has been cancelled"
       ]
     },
     {
@@ -65,11 +74,21 @@
       "patterns": [
         "What does status 30 mean?",
         "Status 320",
-	      "What is status 30"
+	"What is status 30"
       ],
       "responses": [
-        "Status 30 means that the contract offer has been created",
-        "Contract offer created."
+        "Status 30 (loan) means that the contract offer has been created"
+      ]
+    },
+    {
+      "tag": "Status39",
+      "patterns": [
+        "What does status 39 mean?",
+        "Status 39",
+	"What is status 39"
+      ],
+      "responses": [
+        "Status 39 (loan) means the contract offer has been cancelled"
       ]
     },
     {
@@ -77,11 +96,21 @@
       "patterns": [
         "What does status 40 mean?",
         "Status 40",
-	      "What is status 40"
+	"What is status 40"
       ],
       "responses": [
-        "Status 40 means that the loan contract has been created",
-        "Loan contract created."
+        "Status 40 (loan) means that the loan contract has been created"
+      ]
+    },
+    {
+      "tag": "Status49",
+      "patterns": [
+        "What does status 49 mean?",
+        "Status 49",
+	"What is status 49"
+      ],
+      "responses": [
+        "Status 49 (loan) means the contract has been cancelled"
       ]
     },
     {
@@ -89,11 +118,32 @@
       "patterns": [
         "What does status 50 mean?",
         "Status 50",
-	      "What is status 50"
+	"What is status 50"
       ],
       "responses": [
-        "Status 50 means that the application is under review of the underwriter",
-        "Application under underwriter review."
+        "Status 50 (loan) means that the application is under review of the underwriter"
+      ]
+    },
+    {
+      "tag": "Status54",
+      "patterns": [
+        "What does status 54 mean?",
+        "Status 54",
+	"What is status 54"
+      ],
+      "responses": [
+        "Status 54 (loan) means that the application is in credit review"
+      ]
+    },
+    {
+      "tag": "Status55",
+      "patterns": [
+        "What does status 55 mean?",
+        "Status 55",
+	"What is status 55"
+      ],
+      "responses": [
+        "Status 55 (loan) means the credit review has been completed"
       ]
     },
     {
@@ -101,11 +151,10 @@
       "patterns": [
         "What does status 60 mean?",
         "Status 60",
-	      "What is status 60"
+	"What is status 60"
       ],
       "responses": [
-        "Status 60 means that the requisition has been received",
-        "Requisition received."
+        "Status 60 (loan) means that the requisition has been received"
       ]
     },
     {
@@ -113,11 +162,155 @@
       "patterns": [
         "What does status 70 mean?",
         "Status 70",
-	      "What is status 70"
+	"What is status 70"
       ],
       "responses": [
-        "Status 70 means documents incomplete for conventional loans.",
-        "Incomplete conventional loans."
+        "Status 70 (loan) means documents are incomplete for conventional loans."
+        
+      ]
+    },
+    {
+      "tag": "Status71",
+      "patterns": [
+        "What does status 71 mean?",
+        "Status 71",
+	"What is status 71"
+      ],
+      "responses": [
+        "Status 70 (loan) means documents are complete for conventional loans."
+        
+      ]
+    },
+    {
+      "tag": "Status75",
+      "patterns": [
+        "What does status 75 mean?",
+        "Status 75",
+	"What is status 75"
+      ],
+      "responses": [
+        "Status 75 (loan) means application is under legal action"
+        
+      ]
+    },
+    {
+      "tag": "Status76",
+      "patterns": [
+        "What does status 76 mean?",
+        "Status 76",
+	"What is status 76"
+      ],
+      "responses": [
+        "Status 76 (loan) means real estate is in possession"
+        
+      ]
+    },
+    {
+      "tag": "Status80",
+      "patterns": [
+        "What does status 80 mean?",
+        "Status 80",
+	"What is status 80"
+      ],
+      "responses": [
+        "Status 80 (loan) means documents incomplete for securitized loans."
+        
+      ]
+    },
+    {
+      "tag": "Status81",
+      "patterns": [
+        "What does status 81 mean?",
+        "Status 81",
+	"What is status 81"
+      ],
+      "responses": [
+        "Status 81 (loan) means documents complete for securitized loans."
+        
+      ]
+    },
+    {
+      "tag": "Status85",
+      "patterns": [
+        "What does status 85 mean?",
+        "Status 85",
+	"What is status 85"
+      ],
+      "responses": [
+        "Status 85 (loan) means securitized loan is in legal action."
+        
+      ]
+    },
+    {
+      "tag": "Status86",
+      "patterns": [
+        "What does status 86 mean?",
+        "Status 86",
+	"What is status 86"
+      ],
+      "responses": [
+        "Status 86 (loan) means customer is in possession of securitized loan"
+        
+      ]
+    },
+    {
+      "tag": "Status90",
+      "patterns": [
+        "What does status 90 mean?",
+        "Status 90",
+	"What is status 70"
+      ],
+      "responses": [
+        "Status 90 (loan) means documents incomplete for discharged loans."
+        
+      ]
+    },
+    {
+      "tag": "Status91",
+      "patterns": [
+        "What does status 91 mean?",
+        "Status 91",
+	"What is status 91"
+      ],
+      "responses": [
+        "Status 91 (loan) means documents complete for discharged loans."
+        
+      ]
+    },
+    {
+      "tag": "Status92",
+      "patterns": [
+        "What does status 92 mean?",
+        "Status 92",
+	"What is status 92"
+      ],
+      "responses": [
+        "Status 92 (loan) means that the loan has been funded externally"
+        
+      ]
+    },
+    {
+      "tag": "Status93",
+      "patterns": [
+        "What does status 93 mean?",
+        "Status 93",
+	"What is status 93"
+      ],
+      "responses": [
+        "Status 93 (loan) means loan has been sold through external servicing"
+        
+      ]
+    },
+    {
+      "tag": "Status98",
+      "patterns": [
+        "What does status 98 mean?",
+        "Status 98",
+	"What is status 98"
+      ],
+      "responses": [
+        "Status 98 (loan) means loan has been completed"
+        
       ]
     },
     {
@@ -125,10 +318,10 @@
       "patterns": [
         "What is LTV?",
         "LTV?",
-	      "What is one of the factors that will change the LTV %?"
+	"What is one of the factors that will change the LTV %?"
       ],
       "responses": [
-        "Loan-to-Value ratio. You would divide the mortgage amount over the property value.",
+        "LTV stands for Loan-to-Value ratio. You would divide the mortgage amount over the property value.",
         "Loan-to-Value ratio (LTV): factors like mortgage amount and property affect this %."
       ]
     },
@@ -137,10 +330,10 @@
       "patterns": [
         "What is TDS?",
         "TDS?",
-	      "What is one of the factors that will change the TDS %?"
+	"What is one of the factors that will change the TDS %?"
       ],
       "responses": [
-        "Total Debt Service. It's the % of your income needed to cover all your debts"
+        "TDS stands for Total Debt Service. It's the % of your income needed to cover all your debts"
       ]
     },
     {
@@ -148,10 +341,10 @@
       "patterns": [
         "What is CBS?",
         "CBS",
-	      "What is the range of CBS scores?"
+	"What is the range of CBS scores?"
       ],
       "responses": [
-        "CBS stands for Credit Bureau Score. Its rating ranges from 280 to 900. Usually a score of 600+ is considered to be good."
+        "CBS stands for Credit Bureau Score. Its rating ranges from 300 to 900. Usually a score of 600+ is considered to be good."
       ]
     },
     {
@@ -159,18 +352,14 @@
       "patterns": [
         "What SAP applications should I use for updating CBS?",
         "SAP applications?",
-	      "SAP application",
-	      "SAP app",
-	      "applications",
-	      "SAP"
+	"SAP application",
+	"SAP app",
+	"applications",
+	"SAP"
       ],
       "responses": [
-        "1. Finding loan details: Manage Loan Contract \n  2.Updation of CBS/MOS: Maintain BP \n  3. Link a property to an existing loan: Property \n  4. Creation of a new loan contract: Create Mortgage contract"
+        "1. Finding loan details: Manage Loan Contract \n  2.Updation of CBS/MOS: Maintain BP \n      3. Link a property to an existing loan: Property \n      4. Creation of a new loan contract: Create Mortgage contract"
       ]
     }
   ]
 }
-
-
-
-
