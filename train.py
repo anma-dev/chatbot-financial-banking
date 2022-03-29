@@ -1,5 +1,5 @@
 #Pytorch Training Loop 
-#Dumps data into data.pth file 
+#Dumps training data into data.pth file 
 
 import numpy as np
 import random
