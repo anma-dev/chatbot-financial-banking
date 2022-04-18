@@ -20,6 +20,7 @@ def predict():
     message = {"answer": response}
     return jsonify(message)
 
-
+#Used to host and direct IP address
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.debug = True
+    app.run(host="0.0.0.0")
