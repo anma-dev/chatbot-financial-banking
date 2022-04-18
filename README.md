@@ -9,7 +9,7 @@ $ .venv\scripts\activate
 ```
 Install dependencies
 ```
-$ (venv) pip install Flask torch torchvision nltk
+$ (venv) pip install Flask torch torchvision nltk flask-cors
 ```
 Install nltk package
 ```
