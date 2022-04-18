@@ -5,7 +5,7 @@ Home Trust Chatbot using Python & Flask
 Clone repo and create a virtual environment
 ```
 $ python3 -m venv venv
-$ . venv/bin/activate
+$ .venv\scripts\activate
 ```
 Install dependencies
 ```
