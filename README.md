@@ -29,10 +29,9 @@ Run
 ```
 $ (venv) python -m flask run
 ```
-##Helpful Links:
+## Helpful Links:
 Trouble with virtual environments: https://code.visualstudio.com/docs/python/tutorial-flask
 
 <img width="269" alt="chatbot" src="https://user-images.githubusercontent.com/54012492/162278849-674ff635-2511-4312-a920-3061ee0d47f3.png">
 
-## Credits:
-Python Engineer
+Credits: Python Engineer
