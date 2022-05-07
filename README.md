@@ -1,8 +1,15 @@
-Home Trust Chatbot using Python & Flask 
+# Intelligent Chatbot for the Banking, Financial Industry 
 
-## Initial Setup:
+This project is built using Python, Flask, HTMl, CSS, and Javascript. It includes some basic neural networks for processing updated data (.json format) to train the chatbot to update its responses. 
 
-Clone repo and create a virtual environment
+This chatbot was made to save time for team leads and make the onboarding process for new employees smoother. Onboarding to a new company takes time and new knowledge of terms, proccesses, and company specific 'lingo'. The chatbot helps employees in gaining a baseline knowledge of information, while also helping experienced developers gain knowledge from other projects. This chatbot is mainly focused to help the banking/financial industry, specifically knowledge related to mortgages and loan processes. 
+
+A focus of this project is keeping it accessible to various teams within a company and having its data updated to ensure its knowledge remains current. This led to the idea of building a 'data dictionary' for team leads of different knowledge levels to contribute to the chatbot, maintaing its usability and ensuring it remains in use for the foreseeable future. 
+
+
+### Initial Setup:
+
+Create a virtual environment
 ```
 $ python3 -m venv venv
 $ .venv\scripts\activate
