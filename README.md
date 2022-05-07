@@ -1,6 +1,6 @@
 # Intelligent Chatbot for the Banking, Financial Industry 
 
-This project is built using Python, Flask, HTMl, CSS, and Javascript. It includes some basic neural networks for processing updated data (.json format) to train the chatbot to update its responses. 
+This project is built using Python, Flask, HTMl, CSS, Javascript, and Natural Language Processing (NLTK). It includes some basic neural networks for processing updated data (.json format) to train the chatbot to update its responses. 
 
 This chatbot was made to save time for team leads and make the onboarding process for new employees smoother. Onboarding to a new company takes time and new knowledge of terms, proccesses, and company specific 'lingo'. The chatbot helps employees in gaining a baseline knowledge of information, while also helping experienced developers gain knowledge from other projects. This chatbot is mainly focused to help the banking/financial industry, specifically knowledge related to mortgages and loan processes. 
 
