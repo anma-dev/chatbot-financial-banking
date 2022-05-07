@@ -6,6 +6,7 @@ This chatbot was made to save time for team leads and make the onboarding proces
 
 A focus of this project is keeping it accessible to various teams within a company and having its data updated to ensure its knowledge remains current. This led to the idea of building a 'data dictionary' for team leads of different knowledge levels to contribute to the chatbot, maintaing its usability and ensuring it remains in use for the foreseeable future. 
 
+## Demonstration 
 <img width="269" alt="chatbot" src="https://user-images.githubusercontent.com/54012492/162278849-674ff635-2511-4312-a920-3061ee0d47f3.png">
 
 ### Initial Setup:
