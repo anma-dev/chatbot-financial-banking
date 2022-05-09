@@ -41,5 +41,3 @@ $ (venv) python -m flask run
 
 **Helpful Links:**
 Trouble with virtual environments: https://code.visualstudio.com/docs/python/tutorial-flask
-
-Credits: Python Engineer
